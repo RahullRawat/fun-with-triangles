@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #f87171;
+	--white-color: #fff;
+	--background-color: #1f2937;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: antiquewhite;
+}
+
+nav {
+	text-align: center;
+	padding: 1.5rem;
+	background-color: var(--primary-color);
+}
+
+nav a {
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--white-color);
+	text-decoration: none;
+	padding: 0.3rem 0rem;
+	margin: 0rem 1rem;
+}
+
+.item-active {
+	border-bottom: 2px solid var(--white-color);
+}
+
+.container {
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+	padding: 2rem;
+	border: 2px solid var(--primary-color);
+	margin-top: 4rem;
+}
+
+.heading {
+	color: var(--primary-color);
+	margin-bottom: 2rem;
+}
+
+.container label,
+.container input {
+	display: block;
+	width: 50%;
+	margin: auto;
+}
+
+.container label {
+	font-size: 18px;
+	font-weight: 600;
+	color: var(--white-color);
+	background-color: var(--primary-color);
+	padding: 0.3rem;
+}
+
+.container input {
+	font-size: 16px;
+	padding: 0.8rem;
+	margin-bottom: 2.5rem;
+	outline: none;
+	border: none;
+}
+
+#btn-check,
+#check-hypotenuse,
+#check-triangle {
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: var(--white-color);
+	background-color: var(--primary-color);
+	padding: 0.8rem 1.6rem;
+	border-radius: 0.3rem;
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+	margin-top: 10rem;
+}
+
+a,
+img,
+li {
+	display: inline;
+	margin: 0.4rem;
+	width: 30px;
+	height: 30px;
+}
+
+/* quiz page */
+.quiz-form {
+	max-width: 700px;
+	margin: auto;
+	padding: 2rem;
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.quiz-form .heading {
+	text-align: center;
+}
+
+.quiz-container {
+	text-align: left;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	color: var(--white-color);
+	background-color: var(--primary-color);
+	margin-bottom: 1.5rem;
+}
+
+.quiz-container p {
+	font-size: 19px;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.quiz-container label {
+	margin-right: 1rem;
+}
+
+.output-container {
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+#submit-answer {
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: var(--white-color);
+	background-color: var(--primary-color);
+	padding: 0.8rem 1.6rem;
+	border-radius: 0.3rem;
+	cursor: pointer;
+	margin-top: 2rem;
+}
+
+/* hypotenuse */
+.formula {
+	color: var(--white-color);
+	background-color: var(--primary-color);
+	padding: 0.3rem;
+	margin-bottom: 1.5rem;
+}
+
+/* output message */
+#output-msg {
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--primary-color);
+	margin-top: 1rem;
+}
