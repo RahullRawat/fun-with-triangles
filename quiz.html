@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Triangle Quiz</title>
+	</head>
+	<body>
+		<nav>
+			<a href="index.html">Is Traingle?</a>
+			<a href="quiz.html" class="item-active">Quiz</a>
+			<a href="hypotenuse.html">Hypotenuse</a>
+			<a href="trianglearea.html">Area</a>
+		</nav>
+
+		<form class="quiz-form">
+			<h1 class="heading">Triangle Quiz</h1>
+
+			<div class="quiz-container">
+				<p>
+					What is the third angle for the triangle where angle1 = 45° and angle2
+					= 45°?
+				</p>
+				<label>
+					<input type="radio" name="question1" value="45°" />
+					45°
+				</label>
+				<label>
+					<input type="radio" name="question1" value="60°" />
+					60°
+				</label>
+				<label>
+					<input type="radio" name="question1" value="90°" />
+					90°
+				</label>
+			</div>
+
+			<div class="quiz-container">
+				<p>If a triangle has an angle of 90 degrees, what is it called?</p>
+				<label>
+					<input type="radio" name="question2" value="obtuse" />
+					Obtuse
+				</label>
+				<label>
+					<input type="radio" name="question2" value="acute" />
+					Acute
+				</label>
+				<label>
+					<input type="radio" name="question2" value="right angled" />
+					Right angled
+				</label>
+			</div>
+
+			<div class="quiz-container">
+				<p>A Triangle having at least two equal sides is :</p>
+				<label>
+					<input type="radio" name="question3" value="Acute Triangle" />
+					Acute Triangle
+				</label>
+				<label>
+					<input type="radio" name="question3" value="Equilateral Triangle" />
+					Equilateral Triangle
+				</label>
+				<label>
+					<input type="radio" name="question3" value="Isosceles Triangle" />
+					Isosceles Triangle
+				</label>
+			</div>
+
+			<div class="quiz-container">
+				<p>A Triangle with all three angles less than 90 degrees :</p>
+				<label>
+					<input type="radio" name="question4" value="Acute Triangle" />
+					Acute Triangle
+				</label>
+				<label>
+					<input type="radio" name="question4" value="Equilateral Triangle" />
+					Equilateral Triangle
+				</label>
+				<label>
+					<input type="radio" name="question4" value="Isosceles Triangle" />
+					Isosceles Triangle
+				</label>
+			</div>
+
+			<div class="quiz-container">
+				<p>A Triangle with one angle greater than 90 degrees.</p>
+				<label>
+					<input type="radio" name="question5" value="Equilateral Triangle" />
+					Equilateral Triangle
+				</label>
+				<label>
+					<input type="radio" name="question5" value="Obtuse Triangle" />
+					Obtuse Triangle
+				</label>
+				<label>
+					<input type="radio" name="question5" value="Acute Triangle" />
+					Acute Triangle
+				</label>
+			</div>
+
+			<div class="quiz-container">
+				<p>The sum of all the angles of a Triangle is :</p>
+				<label>
+					<input type="radio" name="question6" value="180" />
+					180 Degrees
+				</label>
+				<label>
+					<input type="radio" name="question6" value="270" />
+					270 Degrees
+				</label>
+				<label>
+					<input type="radio" name="question6" value="210" />
+					210 Degrees
+				</label>
+			</div>
+		</form>
+
+		<div class="output-container">
+			<button id="submit-answer" type="submit">Submit Answers</button>
+
+			<div id="output-msg"></div>
+		</div>
+
+		<footer>
+			<p>© | 2021 | Rahul Rawat</p>
+			<ul class="footer-list">
+				<li>
+					<a
+						class="links"
+						href="https://github.com/RahullRawat"
+						target="_blank"
+					>
+						<img src="images/github.svg" alt="github" class="img" />
+					</a>
+				</li>
+				<li>
+					<a
+						class="links"
+						href="https://twitter.com/rahul_rawat08"
+						target="_blank"
+					>
+						<img src="images/twitter.svg" alt="twitter" class="img" />
+					</a>
+				</li>
+			</ul>
+		</footer>
+
+		<script src="script/quiz.js"></script>
+	</body>
+</html>
